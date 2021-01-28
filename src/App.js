@@ -5,11 +5,16 @@ import Partner from './components/Partner'
 import About from './components/About'
 import Navigation from './components/Navigation'
 
+
 import {
   BrowserRouter as Router,
   Switch,
   Route,
 } from "react-router-dom";
+
+import { library } from '@fortawesome/fontawesome-svg-core'
+import { fab } from '@fortawesome/free-brands-svg-icons'
+library.add(fab)
 
 function App() {
   return (
