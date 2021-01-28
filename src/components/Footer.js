@@ -15,42 +15,42 @@ const Footer = () => {
                     <div>
                         <h4>Destinations</h4>
                         <ul>
-                            <li>Africa</li>
-                            <li>Antarctica</li>
-                            <li>Asia</li>
-                            <li>Europe</li>
-                            <li>America</li>
+                            <a href="https://bit.ly/2Mads6s"><li>Africa</li></a>
+                            <a href="https://bit.ly/39sJ5Bk"><li>Antarctica</li></a>
+                            <a href="https://bit.ly/3oppiqE"><li>Asia</li></a>
+                            <a href="https://bit.ly/39oxaEw"><li>Europe</li></a>
+                            <a href="https://bit.ly/3t2oThb"><li>America</li></a>
                         </ul>
                     </div>
                     <div>
                     <h4>Shop</h4>
                         <ul>
-                            <li>Destination Guides</li>
-                            <li>Pictorial & Gifts</li>
-                            <li>Special Offers</li>
-                            <li>Delivery Times</li>
-                            <li>FAQs</li>
+                            <a href="/"><li>Destination Guides</li></a>
+                            <a href="/"><li>Pictorial & Gifts</li></a>
+                            <a href="/"><li>Special Offers</li></a>
+                            <a href="/"><li>Delivery Times</li></a>
+                            <a href="/"><li>FAQs</li></a>
                         </ul>
                     </div>
                     <div>
                     <h4>Interests</h4>
                         <ul>
-                            <li>Adventure Travel</li>
-                            <li>Art And Culture</li>
-                            <li>Wildlife And Nature</li>
-                            <li>Family Holidays</li>
-                            <li>Food And Drink</li>
+                            <a href="/"><li>Adventure Travel</li></a>
+                            <a href="/"><li>Art And Culture</li></a>
+                            <a href="/"><li>Wildlife And Nature</li></a>
+                            <a href="/"><li>Family Holidays</li></a>
+                            <a href="/"><li>Food And Drink</li></a>
+                    
                         </ul>
                     </div>
                 </section>
                 <hr />
                 <section className="footerSocial">
-
-                    <FontAwesomeIcon icon={['fab', 'twitter']} />
-                    <FontAwesomeIcon icon={['fab', 'facebook-f']} />
-                    <FontAwesomeIcon icon={['fab', 'instagram']} />
-                    <FontAwesomeIcon icon={['fab', 'linkedin-in']} />
-                    <FontAwesomeIcon icon={['fab', 'youtube']} />
+                    <a href="twitter.com"><FontAwesomeIcon icon={['fab', 'twitter']} /></a>
+                    <a href="facebook.com"><FontAwesomeIcon icon={['fab', 'facebook-f']} /></a>
+                    <a href="instagram.com"><FontAwesomeIcon icon={['fab', 'instagram']} /></a>
+                    <a href="linkedin.com"><FontAwesomeIcon icon={['fab', 'linkedin-in']} /></a>
+                    <a href="youtube.com"><FontAwesomeIcon icon={['fab', 'youtube']} /></a>
                 </section>
             </section>
         </footer>
