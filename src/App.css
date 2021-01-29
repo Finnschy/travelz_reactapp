@@ -189,7 +189,7 @@ header {
   font-weight: 600;
 }
 
-.destinationsIMG {
+.destinationsIMG, .trendingStoriesGrid {
   display: grid;
   grid-template-columns: repeat(4, 261px);
   justify-content: space-between;
@@ -264,4 +264,27 @@ footer {
   font-size: 20px;
   color: var(--HL-darkGrey);
   margin-right: 1rem;
+}
+
+.partnerSection > h2 {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.testimonialSect svg {
+  color: #FFBB0C;
+  font-size: 24px;
+  margin-right: 1rem;
+}
+
+.testimonialSect div p:nth-of-type(1) {
+  margin-top: 1rem;
+}
+
+.testimonialSect div p:nth-of-type(4) {
+  margin-bottom: 2rem;
+}
+
+.partnerFlex {
+  margin-top: 10rem;
 }

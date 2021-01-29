@@ -14,8 +14,8 @@ import {
 
 import { library } from '@fortawesome/fontawesome-svg-core'
 import { fab } from '@fortawesome/free-brands-svg-icons'
-import { faChevronRight } from '@fortawesome/free-solid-svg-icons'
-library.add(fab, faChevronRight)
+import { faChevronRight, faStar } from '@fortawesome/free-solid-svg-icons'
+library.add(fab, faChevronRight, faStar)
 
 function App() {
   return (
